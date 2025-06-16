@@ -1,6 +1,7 @@
 {
   "name": "shortcom",
   "private": true,
+  "homepage": "https://ayan7020.github.io/shortcom/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,13 +9,16 @@
     "build": "vite build",
     "lint": "eslint .",
     "postinstall": "vite build || echo 'Vite native failed, fallback to JS build.'",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.10.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
