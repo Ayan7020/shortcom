@@ -36,7 +36,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename='/shortcom'>
       <MainLayout cartCount={cartItems.reduce((sum, item) => sum + item.quantity, 0)}>
         <Routes>
           <Route path="/" element={<LandingPage />} />
