@@ -20,7 +20,7 @@ const data = [
     "id": 4,
     "name": "Lamb Leg Piece 500 g",
     "price": 900,
-    "image": "/shortcom/Img/Lamb-Leg-Piece.png",
+    "image": "/Img/Lamb-Leg-Piece.png",
     "description": "Mutton leg piece ideal for rich and hearty dishes."
   },
   {

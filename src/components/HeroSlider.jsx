@@ -37,9 +37,9 @@ import React, { useState, useEffect } from 'react';
 import './HeroSliderStyle.css';
 
 const images = [
-  '/Img/mutton-bonless.png',
-  '/Img/fish-bonless.png',
-  '/Img/prawns.png'
+  '/shortcom/Img/mutton-bonless.png',
+  '/shortcom/Img/fish-bonless.png',
+  '/shortcom/Img/prawns.png'
 ];
 
 const HeroSlider = () => {
@@ -70,7 +70,7 @@ const HeroSlider = () => {
       
       <div className="rolling-ball-container">
         <img
-          src="/Img/fish.png"
+          src="/shortcom/Img/fish.png"
           alt="Explore Products"
           className="rolling-ball"
           onClick={handleBallClick}
