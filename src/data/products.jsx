@@ -1,12 +1,11 @@
-// import images from "../../public/"
+
 
 const data = [
   {
     "id": 2,
     "name": "Lamb Chaap 1kg",
-    "price": "1000",
-    // "image": "../Public/Img/Lamb-Chaap.png",
-    "image": "../public/Img/Chicken-Liver.png",
+    "price": "1000", 
+    "image": "/Img/Chicken-Liver.png",
     "description": "Mutton ribs (chaap), juicy and flavorful, perfect for grilling and frying."
   },
   {
